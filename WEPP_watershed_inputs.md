@@ -11,6 +11,10 @@ This documentation provides a comprehensive guide to the input files required fo
 | Impoundment | Impoundment (.imp) | - |
 | Watershed | Structure (.str)<br>Hillslope Pass (.hil)<br>All hillslope, channel, and impoundment files | Watershed Run (.run) |
 
+## Hillsope, and Channel slopes and structure files
+Available from peridot/src/watershed_abstraction.rs in the weep in the woods repo.
+
+
 ## Watershed Analysis Process in WEPP
 
 The WEPP watershed model simulates:
