@@ -12,7 +12,7 @@ This documentation provides a comprehensive guide to the input files required fo
 | Watershed | Structure (.str)<br>Hillslope Pass (.hil)<br>All hillslope, channel, and impoundment files | Watershed Run (.run) |
 
 ## Hillsope, and Channel slopes and structure files
-Available from peridot/src/watershed_abstraction.rs in the weep in the woods repo.
+Available from peridot/src/watershed_abstraction.rs in the weep in the woods repo https://github.com/wepp-in-the-woods/peridot/blob/main/src/watershed_abstraction.rs .
 
 
 ## Watershed Analysis Process in WEPP
