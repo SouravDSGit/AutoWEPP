@@ -35,7 +35,7 @@
      - Points located outside the region boundary will be excluded from the analysis.
      - At least one pour point must be within the boundary, or watershed delineation will throw an error.
      - A maximum of 300 pour points can be included in the analysis at a time.
-     - The point shapefile must have these headers (Note- You can have more columns like you may find in the sample dataset which was modified from the [CATT's dataset](https://research.fs.usda.gov/srs/centers/catt), but the data and columns described in the table below are mandetory) :
+     - The point shapefile must have these headers (Note- You can have more columns, but the data and columns described in the table below are mandetory) :
 
      | **Column Name** | **Description**                                                                                                                                                                                                                                 |
      | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -60,7 +60,7 @@
      - Points located outside the region boundary will be excluded from the analysis.
      - At least one pour point must be within the boundary, or watershed delineation will throw an error.
      - A maximum of 300 pour points can be included in the analysis at a time.
-     - The point shapefile must have these headers (Note- You can have more columns like you may find in the sample dataset which was modified from the [CATT's dataset](https://research.fs.usda.gov/srs/centers/catt), but the data and columns described in the table below are mandetory) :
+     - The point shapefile must have these headers (Note- You can have more columns, but the data and columns described in the table below are mandetory) :
 
      | **Column Name** | **Description**                                                                                                                                                                                                                                 |
      | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -86,7 +86,7 @@
      - Gauging stations should be located inside the region boundary.
      - Gauging stations outside the region boundary will be excluded from the analysis.
      - A maximum of 300 gauging station points can be included in the analysis at a time.
-     - The point shapefile must have these headers (Note- You can have more columns like you may find in the sample dataset which was modified from the [CATT's dataset](https://research.fs.usda.gov/srs/centers/catt), but the data and columns described in the table below are mandetory) :
+     - The point shapefile must have these headers (Note- You can have more columns, but the data and columns described in the table below are mandetory) :
 
      | **Column Name** | **Description**                                                                              |
      | --------------- | -------------------------------------------------------------------------------------------- |
