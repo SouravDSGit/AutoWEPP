@@ -14,6 +14,15 @@ This documentation provides a comprehensive guide to the input files required fo
 ## Hillsope, and Channel slopes and structure files
 Available from peridot/src/watershed_abstraction.rs in the weep in the woods repo https://github.com/wepp-in-the-woods/peridot/blob/main/src/watershed_abstraction.rs .
 
+## Climate file
+Step 1: Get the station meta objects from stationManager = CligenStationsManager(version=2015) 
+stationMeta = stationManager.get_closest_station((-117, 46)) from there https://github.com/wepp-in-the-woods/wepppy2/blob/f5786755bbdd3c9c1599db42ee1da119ca04eea3/climates/cligen/__init__.py#L1881C5-L1883C65
+Step 2: Go to this fucntion and call it: this is the main function-- https://github.com/rogerlew/wepppy/blob/abb28662476b220d539a3ad4157120ca897266f9/wepppy/nodb/climate.py#L356
+This is an observed daymet fucntions that extracts the daymet climate data and also processes the input for cligen runs and runs the cligen as well.This cli_dir is the path to save the lcimate input file (i.e., the .cli file that goes into WEPP)
+This will also save the daymet raw data into the same cli_dir path. 
+
+cligen executable (linux binary) is saved in https://github.com/wepp-in-the-woods/wepppy2/blob/main/climates/cligen/bin/cligen532
+this executable is path is saved in the _bin_dir variable in the class 
 
 ## Watershed Analysis Process in WEPP
 
