@@ -11,8 +11,7 @@
      - Ensure the total ZIP file size does not exceed 25 MB.
      - The boundary must be located within the USA.
      - The maximum area allowed for the boundary is 120,000 hectares.
-   - **Sample Data Download:** [here](https://github.com/SouravDSGit/CULVERT-Web-App/raw/refs/heads/main/instance/core_data/data_format_guide/santee_boundary_f.zip)
-
+   
 2. **LiDAR DEM Data**
 
    - **Accepted format:**
@@ -20,8 +19,7 @@
      - The DEM should cover an area larger than the boundary shapefile to ensure proper watershed delineation.
      - Make sure the DEM resolution is suitable for your analysis.
      - If the DEM leaves out any part of the boundary, an error will be displayed.
-   - **Sample Data Download Link:** [here](https://example.com)
-
+   
 3. **Pour Point (Culvert) Data**
 
    a. **No Data Available**
@@ -53,8 +51,7 @@
      | `Grp_Size`      | The size (`integer`) of the group (2 for paired, 3 for tripple, or a greater number for larger groups). Rows indicating single drainage structure, bridge, or gauging station must be set to `NA`.                                              |
      | `GWS_ID`        | Unique identifier (`alpha-numeric`) for the guaged watershed drained by the gauging station. Must be set to `NA` if its not a gauging station.                                                                                                  |
 
-   - **Sample Data Download:** [here](https://github.com/SouravDSGit/CULVERT-Web-App/raw/refs/heads/main/instance/core_data/data_format_guide/culvert_guaging_st.zip)
-
+   
    c. **Only Culvert Point Data Available**
 
    - **Accepted format:**
@@ -79,7 +76,7 @@
      | `Grp_Size`      | The size (`integer`) of the group (2 for paired, 3 for tripple, or a greater number for larger groups). Rows indicating single drainage structure, bridge, or gauging station must be set to `NA`.                                              |
      | `GWS_ID`        | Unique identifier (`alpha-numeric`) for the guaged watershed drained by the gauging station. Must be set to `NA` if its not a gauging station.                                                                                                  |
 
-   - **Sample Data Download:** [here](https://github.com/SouravDSGit/CULVERT-Web-App/raw/refs/heads/main/instance/core_data/data_format_guide/culvert_guaging_st.zip)
+   
 
    d. **Only Gauging Station Point Data Available**
 
@@ -105,7 +102,7 @@
      | `Grp_Size`      | Must be set to `NA` because it is not applicable in this case.                               |
      | `GWS_ID`        | Unique identifier (`alpha-numeric`) for the guaged watershed drained by the gauging station. |
 
-   - **Sample Data Download:** [here](https://github.com/SouravDSGit/CULVERT-Web-App/raw/refs/heads/main/instance/core_data/data_format_guide/culvert_guaging_st.zip)
+  
 
 ## Hydro-meteorological Time-series Data
 
@@ -133,7 +130,7 @@
      | `Covar`         | (Optional) data for chosen covariate to perform non-stationary frequency analysis. Missing data rows, if present, must be set to `NA`. Note: Users can perform non-stationary analysis even without this data-column. The covariate in that case will be set to time. But if present, then peak flows with missing `Covar`, will be excluded from the non-stationary analysis. |
      | `Area_km2`      | Drainage Area (in `square km`) of the guaged WS drainied by the gauging station.                                                                                                                                                                                                                                                                                               |
 
-   - **Sample Data Download Link:** [here](https://example.com)
+  
 
    c. **Full Series of Instantaneous Streamflow Data Available**
 
@@ -152,7 +149,7 @@
      | `Covar`         | (Optional) data for chosen covariate to perform non-stationary frequency analysis. Missing data rows, if present, must be set to `NA`. Note: Users can perform non-stationary analysis even without this data-column. The covariate in that case will be set to time. But if present, then peak flows with missing `Covar`, will be excluded from the non-stationary analysis. |
      | `Area_km2`      | Drainage Area (in `square km`) of the guaged WS drainied by the gauging station.                                                                                                                                                                                                                                                                                               |
 
-   - **Sample Data Download Link:** [here](https://example.com)
+
 
 2. **Precipitation Intensity (PI) Data**
 
@@ -179,7 +176,7 @@
      | `PI`            | Maximum PI in `cm/hr` for each year. Must have valid data length of at least `15 years`. Missing data rows, if present, must be set to `NA.`                                                                                                                                                                                                                                          |
      | `Covar`         | (Optional) data for chosen covariate to perform non-stationary frequency analysis. Missing data rows, if present, must be set to `NA`. Note: Users can perform non-stationary analysis even without this data-column. The covariate in that case will be set to time. But if present, then anual maximum PIs with missing `Covar`, will be excluded from the non-stationary analysis. |
 
-   - **Sample Data Download Link:** [here](https://example.com)
+ 
 
    c. **If full Series of hourly or sub-hourly PI Data Available** (Note: Culvert APP currently only supports hourly or sub-hourly PI data which is relevant for hydrologic analysis for small head-water catchments)
 
@@ -199,4 +196,4 @@
      | `PI`            | PI values in `cm/hr`. Must have a valid data length of at least `15 years`. Missing data rows, if present, must be set to `NA.`                                                                                                                                                                                                                                                       |
      | `Covar`         | (Optional) data for chosen covariate to perform non-stationary frequency analysis. Missing data rows, if present, must be set to `NA`. Note: Users can perform non-stationary analysis even without this data-column. The covariate in that case will be set to time. But if present, then anual maximum PIs with missing `Covar`, will be excluded from the non-stationary analysis. |
 
-   - **Sample Data Download Link:** [here](https://example.com)
+  
